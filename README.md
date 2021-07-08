@@ -6,4 +6,4 @@
 
 ## 计划使用：Node.js + Vue 框架 + OpenGauss 数据库
 
-[实验报告预览](buuzzing.github.io/Report/report.html)
+[实验报告预览](https://buuzzing.github.io/Report/report.html)
