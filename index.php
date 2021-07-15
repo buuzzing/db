@@ -1,4 +1,5 @@
 <?php
+// filename: index.php
 include "src/function/function.php";
 if (isset($_COOKIE['ID'])) {
     echo "<script>url='src/pages/home.php'; window.location.href=url</script>";
@@ -9,7 +10,7 @@ if (isset($_COOKIE['ID'])) {
 <head>
     <?php makeCSS("车站售票管理系统", "/static/icon/train.png"); ?>
     <!-- Custom styles for this template -->
-    <link href="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/examples/signin/signin.css"
+    <link href="/static/css/signin.css"
           rel="stylesheet">
 </head>
 <body>
@@ -29,6 +30,6 @@ if (isset($_COOKIE['ID'])) {
 </div> <!-- /container -->
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="/static/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>

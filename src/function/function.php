@@ -62,16 +62,14 @@ function makeCSS($title, $icon)
     <title>$title</title>
 
     <!-- Bootstrap core CSS -->
-    <link href=\"https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/dist/css/bootstrap.min.css\"
-          rel=\"stylesheet\">
+    <link href=\"/static/css/bootstrap.min.css\" rel=\"stylesheet\">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href=\"https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/assets/css/ie10-viewport-bug-workaround.css\"
-          rel=\"stylesheet\">
+    <link href=\"/static/css/ie10-viewport-bug-workaround.css\" rel=\"stylesheet\">          
 
     <!-- Custom styles for this template -->
-    <link href=\"https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/examples/dashboard/dashboard.css\"
-          rel=\"stylesheet\">";
+    <link href=\"/static/css/dashboard.css\" rel=\"stylesheet\">     
+";
 }
 
 function makeHeader()
@@ -107,15 +105,11 @@ function makeFooter()
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src=\"https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js\"
-            integrity=\"sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ\"
-            crossorigin=\"anonymous\"></script>
-    <script>window.jQuery || document.write('<script src=\"https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/assets/js/vendor/jquery.min.js\"><\/script>')</script>
-    <script src=\"https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/dist/js/bootstrap.min.js\"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src=\"https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/assets/js/vendor/holder.min.js\"></script>
+    <script src=\"/static/js/jquery.min.js\"></script>
+    <script src=\"/static/js/bootstrap.min.js\"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src=\"https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.10/assets/js/ie10-viewport-bug-workaround.js\"></script>";
+    <script src=\"/static/js/ie10-viewport-bug-workaround.js\"></script>
+";
 }
 
 function makeNavigationBar($where)
